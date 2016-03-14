@@ -7,6 +7,8 @@ This library is an unofficial plugin for the [Aurelia](http://www.aurelia.io/) p
 
 **Note:** If [aurelia i18n](https://github.com/aurelia/i18n) is installed and configured, all notifications get automatically translated. You can turn off translations, either generally in the optional plugin configuration, or for individual notifications.
 
+**Note:** This version uses [https://github.com/aurelia/i18n/tree/update-i18next].
+
 > To keep up to date on [Aurelia](http://www.aurelia.io/), please visit and subscribe to [the official blog](http://blog.durandal.io/). If you have questions, we invite you to [join us on Gitter](https://gitter.im/aurelia/discuss). If you would like to have deeper insight into our development process, please install the [ZenHub](https://zenhub.io) Chrome Extension and visit any of our repository's boards. You can get an overview of all Aurelia work by visiting [the framework board](https://github.com/aurelia/framework#boards).
 
 ## Used By
@@ -51,7 +53,7 @@ Import the module, and get cracking.
 ```javascript
 import {inject} from 'aurelia-framework';
 import {Notification} from 'spoonx/aurelia-notification';
-/* optional: 
+/* optional:
  * import a css file to use one of the humane.js styles for the notifications.
  * For the four default notification types to display correctly also set the
  * corresponding classes in the plugin configuration (see example above).

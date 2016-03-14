@@ -53,8 +53,8 @@
       "lib": "dist/system"
     },
     "dependencies": {
-      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0-beta.1.1.4",
-      "aurelia-i18n": "npm:aurelia-i18n@^0.4.11",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@^1.0.0-beta.1.1.5",
+      "aurelia-i18n": "github:aurelia/i18n@update-i18next",
       "javascript-decorators": "npm:javascript-decorators@^0.7.1",
       "wavded/humane-js": "github:wavded/humane-js@^3.2.2"
     },
